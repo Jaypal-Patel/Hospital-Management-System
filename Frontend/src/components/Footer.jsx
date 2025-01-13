@@ -7,7 +7,7 @@ function Footer() {
         {/* ------------- Left Side --------- */}
         <div>
           <div className="text-blue-600 text-2xl font-bold cursor-pointer mb-5">
-            Prescripto
+            MyHospital
           </div>
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
             Lorem Ipsum is simply dummy text of the printing and typesetting

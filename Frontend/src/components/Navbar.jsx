@@ -9,9 +9,9 @@ function Navbar() {
   const [token, setToken] = useState(true);
 
   return (
-    <div className="bg-white shadow-md px-4 md:px-6 py-4 border-b border-b-gray-400 flex justify-between items-center">
+    <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <div className="text-primary text-xl md:text-2xl font-bold cursor-pointer">
-        Prescripto
+        MyHospital
       </div>
       <nav className="hidden md:flex space-x-6 font-medium">
         <NavLink to="/" className="text-gray-600">
@@ -62,7 +62,7 @@ function Navbar() {
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="bg-blue-600 text-white px-8 py-3 rounded-full hidden md:block"
+            className="bg-blue-600 text-white px-8 py-3 rounded-full "
           >
             Create account
           </button>
@@ -81,7 +81,7 @@ function Navbar() {
         >
           <div className="flex items-center justify-between px-5 py-6">
             <div className="text-primary text-xl font-bold cursor-pointer">
-              Prescripto
+              MyHospital
             </div>
             <img
               className="w-7"
