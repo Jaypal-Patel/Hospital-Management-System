@@ -17,8 +17,6 @@ function RelatedDoctors({ speciality, docId }) {
     }
   }, [doctors, speciality, docId]);
 
-  console.log("Related Doctors:", relDoc);
-
   return (
     <div className="flex flex-col items-center gap-4 my-16 text-gray-900 md:mx-10">
       <h1 className="text-3xl font-semibold">Related Doctors to Book</h1>
