@@ -1,5 +1,5 @@
 import validator from "validator";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import pkg from "cloudinary";
 const { v2: cloudinary } = pkg;
 import jwt from "jsonwebtoken";
