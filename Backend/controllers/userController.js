@@ -1,7 +1,8 @@
 import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { v2 as cloudinary } from "cloudinary";
+import pkg from "cloudinary";
+const { v2: cloudinary } = pkg;
 import userModel from "../models/userModel.js";
 import doctorModel from "../models/doctorModel.js";
 import appointmentModel from "../models/appointmentModel.js";
